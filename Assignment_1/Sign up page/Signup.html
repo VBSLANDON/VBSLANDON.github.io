@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="signup.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Account</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Application Form</h2>
+      <p>Fill in your details</p>
+    </div>
+
+    <form>
+      <label for="name">First Name</label>
+      <input type="text" id="name" placeholder="Enter firsy name" />
+
+      <label for="name">Last Name</label>
+      <input type="text" id="name" placeholder="Enter last name" />
+
+      <label for="gender">Gender</label>
+      <select name="for gender" id="gender">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+      </select>
+
+      <label for="date">Date of Birth</label>
+      <input type="date" id="dob" />
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" placeholder="Enter email address" />
+
+      <label for="education-level">Education Level:</label>
+      <select id="education-level" name="education-level">
+        <option value="primary-school">Primary School</option>
+        <option value="secondary-school">Secondary School</option>
+        <option value="high-school">High School</option>
+        <option value="college">College</option>
+        <option value="university">University</option>
+        <option value="postgraduate">Postgraduate</option>
+      </select>
+
+      <label for="country">Country:</label>
+      <select id="country" name="country">
+        <option value="Nigeria">Nigeria</option>
+        <option value="Kenya">Kenya</option>
+        <option value="Canada">Canada</option>
+        <option value="Germany">Germany</option>
+        <option value="Ghana">Ghana</option>
+        <option value="SF">SouthAfrica</option>
+        <option value="USA">United Sate</option>
+        <option value="UK">United Kingdom</option>
+        <option value="Cameroon">Cameroon</option>
+      </select>
+
+      <label for="state">State/City of Residence</label>
+      <input
+        type="text"
+        id="state of residence"
+        placeholder="Enter your State of residence"
+      />
+
+      <label for="employment-status">Employment Status:</label>
+      <select id="employment-status" name="employment-status">
+        <option value="employed">Employed</option>
+        <option value="unemployed">Unemployed</option>
+        <option value="student">Student</option>
+        <option value="self-employed">Self-Employed</option>
+        <option value="retired">Retired</option>
+      </select>
+
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" placeholder="07046818944" />
+
+      <label for="school">Choose School:</label>
+      <select id="school" name="school">
+        <option value="school1"></option>
+        <option value="school2"></option>
+      </select>
+
+      <label for="course">Choose Course:</label>
+      <select id="course" name="course">
+        <option value="course1"></option>
+        <option value="course2"></option>
+      </select>
+
+      <label for="findus">How did you find us?</label>
+      <select id="findus" name="findus">
+        <option value="search-engine">Search Engine</option>
+        <option value="social-media">Social Media</option>
+        <option value="friend">From a Friend</option>
+        <option value="advertisement">Advertisement</option>
+        <option value="other">Other</option>
+      </select>
+
+      <label for="optional">Scholarship/Discount Code (optional)</label>
+      <input
+        type="text"
+        id="optional"
+        placeholder="Scholarship or student ID or discount code"
+      />
+
+      <div class="text-snap">
+        By clicking continue, I agree to<span
+          >Terms of Use<span
+            ><br />
+            and acknowledge that I have the</span
+          >
+          Privacy Policy</span
+        >
+      </div>
+      <input type="submit" />
+
+      <a href="../assets/index.html">Homepage</a>
+    </form>
+  </body>
+</html>

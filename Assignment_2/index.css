@@ -1,0 +1,375 @@
+.sign-up-individual {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.sign-up-individual .overlap-wrapper {
+  background-color: #ffffff;
+  height: 840px;
+  width: 1440px;
+}
+
+.sign-up-individual .overlap {
+  height: 840px;
+  position: relative;
+}
+
+.sign-up-individual .bg {
+  background-color: var(--clgreen);
+  height: 840px;
+  left: 0;
+  opacity: 0.04;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.sign-up-individual .group {
+  height: 275px;
+  left: 140px;
+  position: absolute;
+  top: 205px;
+  width: 464px;
+}
+
+.sign-up-individual .logo {
+  height: 100px;
+  left: -10px;
+  position: absolute;
+  top: -6px;
+  width: 97px;
+}
+
+.sign-up-individual .text-wrapper {
+  color: var(--clgrey);
+  font-family: "Brown-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  height: 75px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 25px;
+  position: absolute;
+  top: 200px;
+}
+
+.sign-up-individual .div {
+  color: var(--clblack);
+  font-family: "Brown-Bold", Helvetica;
+  font-size: 40px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: -0.8px;
+  line-height: 50px;
+  position: absolute;
+  top: 130px;
+  white-space: nowrap;
+}
+
+.sign-up-individual .bg-2 {
+  background-color: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0px 4px 50px #0308131a;
+  height: 679px;
+  left: 720px;
+  position: absolute;
+  top: 81px;
+  width: 580px;
+}
+
+.sign-up-individual .form-filled-no {
+  height: 72px;
+  left: 760px;
+  position: absolute;
+  top: 529px;
+  width: 500px;
+}
+
+.sign-up-individual .form-filled-no-2 {
+  height: 72px;
+  position: relative;
+}
+
+.sign-up-individual .bg-3 {
+  border: 1px solid;
+  border-color: var(--clgray-3);
+  border-radius: 2px;
+  height: 48px;
+  left: 0;
+  position: absolute;
+  top: 24px;
+  width: 500px;
+}
+
+.sign-up-individual .edit-show {
+  height: 16px;
+  left: 467px;
+  position: absolute;
+  top: 15px;
+  width: 16px;
+}
+
+.sign-up-individual .label {
+  height: 16px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 500px;
+}
+
+.sign-up-individual .title {
+  color: var(--textheadings);
+  font-family: "Sofia Pro-SemiBold", Helvetica;
+  font-size: 14px;
+  font-weight: 600;
+  height: 14px;
+  left: 0;
+  letter-spacing: 0.1px;
+  line-height: normal;
+  position: absolute;
+  top: -1px;
+  width: 333px;
+}
+
+.sign-up-individual .form-filled-no-wrapper {
+  height: 72px;
+  left: 1022px;
+  position: absolute;
+  top: 121px;
+  width: 238px;
+}
+
+.sign-up-individual .bg-4 {
+  border: 1px solid;
+  border-color: var(--clgray-3);
+  border-radius: 2px;
+  height: 48px;
+  left: 0;
+  position: absolute;
+  top: 24px;
+  width: 238px;
+}
+
+.sign-up-individual .title-wrapper {
+  height: 16px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 238px;
+}
+
+.sign-up-individual .title-2 {
+  color: var(--textheadings);
+  font-family: "Sofia Pro-SemiBold", Helvetica;
+  font-size: 14px;
+  font-weight: 600;
+  height: 14px;
+  left: 0;
+  letter-spacing: 0.1px;
+  line-height: normal;
+  position: absolute;
+  top: -1px;
+  width: 159px;
+}
+
+.sign-up-individual .div-wrapper {
+  height: 72px;
+  left: 760px;
+  position: absolute;
+  top: 223px;
+  width: 238px;
+}
+
+.sign-up-individual .img {
+  height: 24px;
+  left: 205px;
+  position: absolute;
+  top: 11px;
+  width: 24px;
+}
+
+.sign-up-individual .placeholder {
+  color: var(--clgrey);
+  font-family: "Sofia Pro-Light", Helvetica;
+  font-size: 14px;
+  font-weight: 300;
+  height: 20px;
+  left: 15px;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  position: absolute;
+  top: 12px;
+  width: 170px;
+}
+
+.sign-up-individual .form-filled-no-3 {
+  height: 72px;
+  left: 760px;
+  position: absolute;
+  top: 325px;
+  width: 238px;
+}
+
+.sign-up-individual .form-filled-no-4 {
+  height: 72px;
+  left: 760px;
+  position: absolute;
+  top: 427px;
+  width: 500px;
+}
+
+.sign-up-individual .u-angle-down {
+  height: 24px;
+  left: 467px;
+  position: absolute;
+  top: 11px;
+  width: 24px;
+}
+
+.sign-up-individual .placeholder-2 {
+  color: var(--clgrey);
+  font-family: "Sofia Pro-Light", Helvetica;
+  font-size: 14px;
+  font-weight: 300;
+  height: 20px;
+  left: 15px;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  position: absolute;
+  top: 12px;
+  width: 432px;
+}
+
+.sign-up-individual .form-filled-no-5 {
+  height: 72px;
+  left: 1022px;
+  position: absolute;
+  top: 223px;
+  width: 238px;
+}
+
+.sign-up-individual .form-filled-no-6 {
+  height: 72px;
+  left: 1022px;
+  position: absolute;
+  top: 325px;
+  width: 238px;
+}
+
+.sign-up-individual .form-focus-no {
+  height: 72px;
+  left: 760px;
+  position: absolute;
+  top: 121px;
+  width: 238px;
+}
+
+.sign-up-individual .overlap-group {
+  border-radius: 2px;
+  height: 48px;
+  left: 0;
+  position: absolute;
+  top: 24px;
+  width: 238px;
+}
+
+.sign-up-individual .bg-wrapper {
+  border: 1px solid;
+  border-color: var(--clgreen);
+  border-radius: 2px;
+  height: 48px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 238px;
+}
+
+.sign-up-individual .bg-5 {
+  border: 3px solid;
+  border-color: var(--clgreen);
+  border-radius: 2px;
+  height: 54px;
+  left: -4px;
+  opacity: 0.06;
+  position: relative;
+  top: -4px;
+  width: 244px;
+}
+
+.sign-up-individual .placeholder-3 {
+  color: var(--textheadings);
+  font-family: "Sofia Pro-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  height: 20px;
+  left: 16px;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  position: absolute;
+  top: 13px;
+  width: 170px;
+}
+
+.sign-up-individual .button-default {
+  all: unset;
+  box-sizing: border-box;
+  height: 48px;
+  left: 760px;
+  position: absolute;
+  top: 631px;
+  width: 500px;
+}
+
+.sign-up-individual .button-text-wrapper {
+  background-image: url(./properties/images/bg.png);
+  background-size: 100% 100%;
+  height: 128px;
+  left: -40px;
+  position: relative;
+  top: -30px;
+  width: 580px;
+}
+
+.sign-up-individual .button-text {
+  all: unset;
+  box-sizing: border-box;
+  color: var(--basic-100);
+  font-family: "Sofia Pro-SemiBold", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  left: 259px;
+  letter-spacing: 0.2px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 45px;
+  white-space: nowrap;
+}
+
+.sign-up-individual .by-clicking-register {
+  color: transparent;
+  font-family: "Sofia Pro-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  height: 25px;
+  left: 778px;
+  letter-spacing: 0;
+  line-height: 25px;
+  position: absolute;
+  top: 694px;
+  white-space: nowrap;
+}
+
+.sign-up-individual .span {
+  color: #000000;
+}
+
+.sign-up-individual .text-wrapper-2 {
+  color: #2ec4b6;
+  font-weight: 500;
+  text-decoration: underline;
+  font-family: "Sofia Pro-Medium", Helvetica;
+}

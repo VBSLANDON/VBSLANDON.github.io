@@ -1,0 +1,23 @@
+:root {
+  --clgrey: rgba(115, 115, 115, 1);
+  --clblack: rgba(0, 11, 10, 1);
+  --textheadings: rgba(1, 28, 52, 1);
+  --basic-100: rgba(255, 255, 255, 1);
+  --clgreen: rgba(46, 196, 182, 1);
+  --clgray-3: rgba(240, 240, 240, 1);
+}
+
+:root {
+  --textheadings: rgba(1, 28, 52, 1);
+  --clgray-3: rgba(240, 240, 240, 1);
+}
+
+:root {
+  --clgrey: rgba(115, 115, 115, 1);
+  --textheadings: rgba(1, 28, 52, 1);
+  --clgray-3: rgba(240, 240, 240, 1);
+}
+
+:root {
+  --basic-100: rgba(255, 255, 255, 1);
+}
